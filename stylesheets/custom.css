@@ -1,17 +1,19 @@
 body{
-	font-family: 'Din Pro Light';
+	font-family: 'Roboto', sans-serif;
 }
 .logo {
 	width: 150px;
 }
 div.my-container {
 	padding: 0 34px;
-	margin: 0 0 0 0 !important;
+	margin: 20px 0 0 0 !important;
 	width: 100%;
 }
 nav	{
 	padding: 9px 0 !important;
 	width: 100%;
+	background-color: transparent;
+	color: white;
 }
 
 .navbar-brand {
@@ -28,4 +30,31 @@ div.hero-images {
 
 .carousel-item {
 	height: 700px;
+}
+.nav-link {
+	text-decoration: none;
+	color: white !important;
+	font-size: 1rem;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#navbarSupportedContent {
+	text-align: right;
+}
+
+ nav button {
+	font-weight: 300 !important;
+	letter-spacing: 1px;
+	background: #E32526 !important;
+	color: white;
+	margin-left: 10px;
+	text-transform: uppercase;
+	border: none
+	padding: 8px 15px !important;
+	border-radius: 2px !important;
+}
+button:hover {
+	background: black !important;
 }
