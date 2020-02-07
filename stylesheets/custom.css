@@ -1,5 +1,6 @@
 body{
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 .logo {
 	width: 150px;
@@ -16,6 +17,7 @@ nav	{
 	color: white;
 }
 
+
 .navbar-brand {
 	padding: 0px;
 }
@@ -25,11 +27,11 @@ div.hero-images {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	margin: 0 auto;
+	display: block;
 }
 
 .carousel-item {
-	height: 700px;
+	height: 90vh;
 }
 .nav-link {
 	text-decoration: none;
@@ -38,6 +40,9 @@ div.hero-images {
 	font-weight: 300;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+}
+.nav-link:hover {
+	color: lightgrey !important;
 }
 
 #navbarSupportedContent {
@@ -51,10 +56,67 @@ div.hero-images {
 	color: white;
 	margin-left: 10px;
 	text-transform: uppercase;
-	border: none
+	border: none;
 	padding: 8px 15px !important;
 	border-radius: 2px !important;
 }
 button:hover {
 	background: black !important;
+}
+div.col {
+	padding: 0 0 0 0;
+}
+img.img-fluid {
+	object-fit: cover !important;
+	height: 309.84px;
+}
+.row1 {
+	padding: 0 0 0 0;
+}
+.row1, .row2 {
+	width: 100vw;
+}
+.bottom-images {
+	position: absolute;
+	top: 678px;
+	display: block;
+}
+img.d-block.w-100 {
+	margin-bottom: 0;
+}
+.hero-content {
+	/*margin: 0 auto;*/
+	text-align: center;
+	color: white;
+	/*font-weight: bold;*/
+	/*font-size: 1.75rem;*/
+	position: relative;
+	top: 150px;
+	width: 70vw;
+	align-content: center;
+	margin-right: 0;
+	display: inline-block;
+	left: 15%;
+}
+.header {
+
+}
+
+.paragraph-text {
+	font-size: 1.10rem;
+}
+
+.hero-button {
+	font-weight: 300 !important;
+	letter-spacing: 1px;
+	background: #E32526 !important;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+	padding: 8px 15px !important;
+	border-radius: 2px !important;
+	margin: 15px 10px;
+}
+.d-block {
+	filter:brightness(50%);
 }
