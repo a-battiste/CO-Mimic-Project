@@ -42,7 +42,7 @@ div.hero-images {
 	text-transform: uppercase;
 }
 .nav-link:hover {
-	color: lightgrey !important;
+	color: rgba(255,255,255,0.64) !important;
 }
 
 #navbarSupportedContent {
@@ -119,4 +119,42 @@ img.d-block.w-100 {
 }
 .d-block {
 	filter:brightness(50%);
+}
+div.dropdown-menu.show {
+	background-color: rgba(227,37,38,0.9);
+	color: white;
+}
+a.dropdown-item {
+	color: white;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+a.dropdown-item:hover {
+	background-color: transparent;
+	opacity: 0.7;
+	color: white;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	margin: 0 auto;
+	height: 50px;
+	background: black !important;
+	color: white;
+	width: 100vw;
+	text-align: center;
+	line-height: 50px;
+}
+footer a {
+	color: white;
+	padding: 0 10px;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+footer a:hover {
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
 }
